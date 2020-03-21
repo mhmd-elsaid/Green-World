@@ -1,0 +1,365 @@
+html , body {
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Nunito-Regular';
+    background-image: url('../img/nordwood-themes-KcsKWw77Ovw-unsplash.jpg');
+    background-size: cover;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: 'Cubano';
+    src: url('Cubano.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nunito-Regular';
+    src:  url('Nunito-Regular.ttf') format('truetype');
+}
+
+#cover {
+    height: 100%;
+    background-image: url(../img/dan-otis-OYFHT4X5isg-unsplash.jpg) ;
+    background-size: cover;
+    color: #fff;
+}
+.wall-sticker{
+    background: rgba(0, 0, 0, .5);
+    padding: 8rem 10rem 4rem 3rem ;
+    font-family: 'Cubano';
+    font-size: 4.5rem ;
+    color: #fff ;
+}
+h2{
+    font-family: 'Cubano';
+
+}
+.moto{
+    font-family: 'Cubano';
+    font-size: 2.3rem;
+    text-align: center;
+    margin-left: 7rem;
+    margin-top: 11rem;
+}
+.btn-lg , .btn-outline-success{
+    background-color: transparent;
+    border-radius: .3rem;
+    border: .08rem solid rgba(19, 128, 26, 1);
+    font-family: 'Nunito-Regular';
+    transition: .5s;
+}
+.btn-lg:hover , .btn-lg:focus , .btn-lg:active,
+.btn-outline-success:hover ,.btn-outline-success:focus ,.btn-outline-success:active  {
+    background-color: rgba(19, 128, 36, .55);
+    border: .08rem solid rgba(19, 128, 26, 0);
+    transition: .5s;
+}
+.fa-arrow-down{
+  /* margin-left: 27rem; */
+  margin-top: 3rem;
+  font-size: 3rem;
+  color: #fff;
+  transition: .3s;
+}
+
+.fa-arrow-down:hover{
+    color: rgba(19, 128, 36, .55);
+    transition: .3s;
+}
+.bold-green{
+    color: rgba(19, 128, 35, 0.8); 
+}
+.green-underline{
+    border-bottom: .1rem solid rgba(19, 128, 35, 0.9);
+}
+.navbar-brand{
+    font-family: 'Cubano';
+    font-size: 1.5rem;
+    padding-right: 1rem;
+}
+#main-nav{
+    font-family: 'Nunito-Regular';
+}
+#main-nav li a {
+    border-bottom: .08rem solid transparent ;
+    transition: .5s;
+}
+#main-nav li a:hover {
+    border-bottom: .1rem solid rgba(19, 128, 35, 0.685); 
+    transition: .5s;
+}
+
+
+/* features */
+.under-heading{
+    font-size: 1.2rem;
+    font-family: 'Cubano';
+}
+.fa-5x{
+    transition: 0.3s;
+}
+.fa-5x::after{
+    display:block;
+    content: "";
+    width: 8rem;
+    height: .1rem;
+    background-color:rgba(19, 128, 35, 0.685);
+    margin: 1.5rem auto;
+}
+.fa-5x:hover{
+    color: rgba(19, 128, 35, 1);
+    transition: 0.3s;
+}
+
+/* Timeline */
+.timeline{
+    list-style: none;
+    padding: 4.25rem 0 5rem;
+    position: relative;
+    font-family: 'Cubano';
+    margin-bottom: 0;
+}
+.timeline::before{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    content: " ";
+    width: .19rem;
+    background-color: #eee;
+    left: 50%;
+    margin-right: .09rem;
+}
+.timeline li {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+.timeline li::before , .timeline li::after{
+    content: " ";
+    display: table;
+}
+.timeline li::after{
+    clear: both;
+}
+.timeline li .timeline-panel{
+    width: 50%;
+    float: left;
+    border: .0625rem solid #d4d4d4;
+    border-radius: .15rem;
+    padding: 1.25rem;
+    position: relative;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .175)
+}
+.timeline p{
+    font-family: 'Nunito-Regular';
+    font-weight: 700;
+}
+.timeline li:not(.timeline-inverted){
+    padding-right: 5.625rem;
+}
+.timeline li.timeline-inverted{
+    padding-left: 5.625rem;
+}
+.timeline li .timeline-badge{
+    font-size: 1rem; 
+    color: #fff;
+    width: 3.125rem;
+    height: 3.125rem;
+    background-color: rgba(19, 128, 36, .82);
+    text-align: center;
+    line-height: 3.125;
+    border-radius: 50%;
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    margin-left: -25px;
+}
+.timeline li.timeline-inverted .timeline-panel{
+    float: right
+}
+
+/* section-parallax */
+#section-parallax{
+    background: url(../img/dan-otis-OYFHT4X5isg-unsplash.jpg) center repeat fixed;
+    background-size: cover;
+    color: #fff;
+    padding: 5rem 0 ;
+    margin-bottom: 2rem;
+}
+.card{
+    font-family: 'Cubano';
+    font-size: .9rem
+}
+.card-body a{
+    color: rgba(19, 128, 35, 1);
+}
+.card-img-top{
+    transition: 1s;
+}
+.card-img-top:hover{
+    transform: scale(.97);
+    transition: 1s;
+}
+
+/* numbers */
+#numbers{
+    background-color: #fff;
+}
+.num-cycle{
+    font-weight: bold;
+    color: #fff;
+    width:8rem;
+    height: 8rem;
+    background-color: rgba(19, 128, 36, .82);
+    text-align: center;
+    border-radius: 50%;
+    padding-top: .8rem ;
+    transition: .3s;
+}
+.num-cycle:hover{
+    color: #222;
+    transition: .3s;
+}
+.num-cycle p{
+    margin-top: 1rem
+}
+.num-container{
+    display: flex;
+    justify-content: center;
+}
+
+/* testimonials */
+.img-thumbnail{
+    border-radius: 50%;
+    transition: .5s;
+}
+.img-thumbnail:hover{
+    transform: scale(.95);
+    transition: .5s;
+}
+.fa-quote-left{
+    color: rgba(19, 128, 35, 1);
+    margin: .5rem
+}
+.clients-hr {
+    border-top: .09rem solid rgba(19, 128, 35, 1);
+    width: 90%;
+}
+cite{
+    font-size: .9rem
+}
+blockquote{
+    font-family: 'Nunito-Regular';
+}
+
+/* contact */
+
+.form-group{
+    margin-bottom: .5rem;
+    font-family: 'Cubano';
+}
+
+/* Footer */
+footer , footer a , footer a:hover{
+    color: #b8b8b8
+}
+footer p{
+    font-family: 'Cubano';
+}
+.fa-facebook-square:hover{
+    color: #3b5998;
+}
+.fa-twitter-square:hover{
+    color: #00acee;
+}
+.fa-google-plus-square:hover{
+    color: #cc3333;
+}
+.fa-instagram:hover{
+    color: #dd2a7b
+}
+.fa-chevron-circle-up{
+    color: rgb(19, 128, 35); 
+}
+
+
+
+
+/* RESPONSIVE */
+@media (max-width: 992px){
+    .wall-sticker{
+        font-size: 2.5rem;
+        padding: 12rem 10rem 4rem 3rem ;
+    }
+    .moto{
+        margin-top: 8rem
+    }
+}
+
+@media (max-width: 768px){
+    .moto{
+        font-size: 1.7rem;
+        text-align: center;
+        margin-top: 7rem;
+        margin-left: 5rem;
+    }
+    .card , .num-cycle{
+        margin-bottom: 1rem;
+    }
+
+    .mid-client{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    /* timeline */
+    .timeline::before{
+        left: 10%;
+    }
+    .timeline li {
+        margin-bottom: 2rem;
+        position: relative;
+    }
+    .timeline li .timeline-panel{
+        width: 80%;
+        left: 20%;
+    }
+    .timeline p{
+        font-family: 'Nunito-Regular';
+        font-weight: 700;
+    }
+    .timeline li:not(.timeline-inverted){
+        padding-right: 0rem;
+    }
+    .timeline li.timeline-inverted{
+        padding-left: 0 ;
+    }
+    .timeline li .timeline-badge{
+        top: 40%;
+        left: 10%;
+    }
+    .timeline li.timeline-inverted .timeline-panel{
+        float: unset;
+    }
+
+    /* testimonials */
+    #testimonials .container .jumbotron-fluid .row .col-md-4 .row .col-4{
+        text-align: center;
+    }
+    #testimonials .container .jumbotron-fluid .row .col-md-4 .row .col-4 .img-thumbnail{
+        width: 60%;
+    }
+
+    /* Footer */
+    footer , .list-group{
+        text-align: center;
+    }
+    .fa-chevron-circle-up{
+        display: block;
+        margin-top: 2rem;
+    }
+    .list-group{
+        display: -webkit-inline-box;
+        font-size: .8rem;
+    }
+    
+}
